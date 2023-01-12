@@ -21,7 +21,7 @@ app.use((req, res, next) => {   // when we make request we should be allowed
 app.use(express.json()) // using this we will be able to send user input data (such as while registering) as JSON
 
 app.use(cors({              // our api can be reached through one particular URL
-    origin:"https://dancing-sunshine-876f25.netlify.app" // client URL
+    origin:"https://dancing-sunshine-876f25.netlify.app/" // client URL
 })) 
 
 app.use(cookieParser())
